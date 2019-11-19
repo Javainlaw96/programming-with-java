@@ -1,6 +1,6 @@
 # Bài 1 
 **Xét từng câu lệnh khai báo biến như sau**:
--  `bool kiemTra;` : Lệnh này **bị lỗi biên dịch** bởi trong Java 'bool' không phải một keyword để khai báo biến.
+-  `bool kiemTra;` : Lệnh này **bị lỗi biên dịch** bởi trong Java 'bool' không phải một keyword đại diện cho một kiểu dữ liệu để khai báo biến.
 - `short a; short b; short c;`: Lệnh này **bị lỗi biên dịch** vì sai cú pháp khi khai báo nhiều biến cùng một lúc. (Sửa lại thành: `short a, b, c`)
 - `double 1000;` : Lệnh này **bị lỗi biên dịch** vì sau keyword kiểu dữ liệu không được bắt đầu bằng chữ số.
 - `char 1kitu;` : Lệnh này **bị lỗi biên dịch** vì sau keyword kiểu dữ liệu không được bắt đầu bằng chữ số.
