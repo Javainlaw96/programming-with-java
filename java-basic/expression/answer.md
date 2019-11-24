@@ -41,9 +41,9 @@ a *= 5 / 2;
    ```
 
 # Bài 5 
-    ```java
+```java
     public static void main(String[] args) {
         int a = 5, b = 9, c = 10;
         System. out. println(a >= b && b >= c ? a : (b >= a && b >= c ? b : c));
         }
-     ```
+```
