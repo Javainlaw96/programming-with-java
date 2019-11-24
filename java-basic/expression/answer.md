@@ -21,7 +21,7 @@ a *= 5 / 2;
 `a = 12`
 
 # Bài 3 
-    ```java
+```java
     public static void main(String[] args) {
         double diemMieng, diem15Phut, diem1Tiet, diemThi, diemTrungbinh;
         diemMieng = 8.5;
@@ -31,14 +31,14 @@ a *= 5 / 2;
         diemTrungbinh = (diemMieng + diem15Phut + diem1Tiet * 2 + diemThi * 3) / 7;
             System.out.println(diemTrungbinh);
             }
-            ``` 
+``` 
 # Bài 4
    ```java
    public static void main(String[] args) {
         int a = 5, b = 9;
         System. out. println(a >= b ? a : b);
         }
-      ```
+   ```
 
 # Bài 5 
     ```java
@@ -46,4 +46,4 @@ a *= 5 / 2;
         int a = 5, b = 9, c = 10;
         System. out. println(a >= b && b >= c ? a : (b >= a && b >= c ? b : c));
         }
-        ```
+     ```
