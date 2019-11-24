@@ -19,3 +19,11 @@ Kết quả:
 a = 12
 
 Bài 3 
+    public static void main(String[] args) {
+        double diemMieng, diem15Phut, diem1Tiet, diemThi, diemTrungbinh;
+        diemMieng = 8.5;
+        diem15Phut = 9.0;
+        diem1Tiet = 8.5;
+diemThi = 8.0;
+diemTrungbinh = (diemMieng + diem15Phut + diem1Tiet * 2 + diemThi * 3) / 7;
+System.out.println(diemTrungbinh);
