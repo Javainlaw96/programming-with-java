@@ -9,7 +9,8 @@
 - `b % 4 + "xau" --> 3 xau`
 
 # Bài 2. 
-```java int a;
+```java
+int a;
 a = 2 >= 2 ? 2 : 3;
 a ++;
 a = a + 3;
@@ -19,21 +20,24 @@ a *= 5 / 2;```
 `a = 12`
 
 # Bài 3 
-    '''java public static void main(String[] args) {
+    ```java
+    public static void main(String[] args) {
         double diemMieng, diem15Phut, diem1Tiet, diemThi, diemTrungbinh;
         diemMieng = 8.5;
         diem15Phut = 9.0;
         diem1Tiet = 8.5;
         diemThi = 8.0;
         diemTrungbinh = (diemMieng + diem15Phut + diem1Tiet * 2 + diemThi * 3) / 7;
-        System.out.println(diemTrungbinh);``` 
+            System.out.println(diemTrungbinh);``` 
 # Bài 4
-    '''java public static void main(String[] args) {
+   ```java
+    public static void main(String[] args) {
         int a = 5, b = 9;
         System. out. println(a >= b ? a : b);
-        }'''
+        }```
 # Bài 5
-    ```java public static void main(String[] args) {
+    ```java
+    public static void main(String[] args) {
         int a = 5, b = 9, c = 10;
         System. out. println(a >= b && b >= c ? a : (b >= a && b >= c ? b : c));
         }```
