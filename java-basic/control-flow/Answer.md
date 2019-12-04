@@ -4,6 +4,6 @@ https://www.youtube.com/watch?v=AAWqnA8PdcY
 if (tamtrang = "nong") {
 System.out.println("Nổi mụn");
 } else {
-System.out.println("thầy nghe nhạc vui vẻ ạ");
+System.out.println("thầy giáo đẹp trai");
 }
 ```
