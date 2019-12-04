@@ -24,5 +24,49 @@ else
 ```
 
 # Bài 3
+```java
+char letter = 0;
+switch (letter) {
+    case u:
+        System.out.println(letter + "là nguyên âm");
+        break;
+    case e:
+        System.out.println(letter + "là nguyên âm");
+        break;
+    case o:
+        System.out.println(letter + "là nguyên âm");
+        break;
+    case a:
+        System.out.println(letter + "là nguyên âm");
+        break;
+    case i:
+        System.out.println(letter + "là nguyên âm");
+        break;       
+    default:
+        System.out.println(letter + "không phải nguyên âm");
+        break;
+}
+```
+
+# Bài 4
+```java
+For (int times = 10; times > 0; times --) {
+  return;
+  }
+  System.out.println(times);
+}
+```
+
+# Bài 5
+
+```java
+for (int i = 0; i > 0 $$ i <= 100; i++) {
+  if (i % 7 == 0) {
+    continue;
+    }
+    System.out.println(i);
+ }
+}
+```
 
 
