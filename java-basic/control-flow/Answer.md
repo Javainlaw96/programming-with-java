@@ -51,10 +51,8 @@ switch (letter) {
 
 # Bài 4
 ```java
-For (int times = 10; times > 0; times --) {
-  return;
-  }
-  System.out.println(times);
+for (int times = 10; times > 0; times --)
+  System.out.println("alo");
 }
 ```
 
