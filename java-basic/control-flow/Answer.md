@@ -1,14 +1,15 @@
 # Bài 1
 ```java
-double weight = 70.0, height = 1.8, chiSo = weight / Math.pow(height, 2);
-if (chiSO < 18.5)
-  System.out.println("Thiếu cân");
-else if (chiSO >= 30)
-  System.out.println("Béo phì");
-else if (chiSO >= 18.5 && chiSo < 25)
-  System.out.println("Bình thường");
+double weight = 70.0, height = 1.8;
+double BMI = weight / Math.pow(height, 2);
+if (BMI< 18.5)
+    System.out.println("Thiếu cân");
+else if (BMI < 25)
+    System.out.println("Bình thường");
+else if (BMI < 30)
+    System.out.println("Thừa cân");
 else
-  System.out.println("Thừa cân");
+    System.out.println("Béo phì");
 ```
 
 # Bài 2
