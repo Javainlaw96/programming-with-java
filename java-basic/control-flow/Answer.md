@@ -2,7 +2,7 @@
 ```java
 double weight = 70.0, height = 1.8;
 double BMI = weight / Math.pow(height, 2);
-if (BMI< 18.5)
+if (BMI < 18.5)
     System.out.println("Thiếu cân");
 else if (BMI < 25)
     System.out.println("Bình thường");
@@ -15,13 +15,13 @@ else
 # Bài 2
 
 ```java
-int year = 1995;
-if (year % 100 == 0 && year % 400 == 0)
-  System.out.println(year + "là năm nhuận");
-else if (!(year % 100 == 0) && year % 4 == 0))
-  System.out.println(year + "là năm nhuận");
+int year = 1996;
+if (year % 400 == 0)
+    System.out.println(year + " là năm nhuận");
+else if (!(year % 100 == 0) && year % 4 == 0)
+    System.out.println(year + " là năm nhuận");
 else
- System.out.println(year + "không phải là năm nhuận");
+    System.out.println(year + " không phải là năm nhuận");
 ```
 
 # Bài 3
