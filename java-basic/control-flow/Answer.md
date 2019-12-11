@@ -26,25 +26,25 @@ else
 
 # Bài 3
 ```java
-char letter = 0;
+char letter = 'e';
 switch (letter) {
-    case u:
-        System.out.println(letter + "là nguyên âm");
+    case 'u':
+        System.out.println(letter + " là nguyên âm");
         break;
-    case e:
-        System.out.println(letter + "là nguyên âm");
+    case 'e':
+        System.out.println(letter + " là nguyên âm");
         break;
-    case o:
-        System.out.println(letter + "là nguyên âm");
+    case 'o':
+        System.out.println(letter + " là nguyên âm");
         break;
-    case a:
-        System.out.println(letter + "là nguyên âm");
+    case 'a':
+        System.out.println(letter + " là nguyên âm");
         break;
-    case i:
-        System.out.println(letter + "là nguyên âm");
+    case 'i':
+        System.out.println(letter + " là nguyên âm");
         break;       
     default:
-        System.out.println(letter + "không phải nguyên âm");
+        System.out.println(letter + " không phải nguyên âm");
         break;
 }
 ```
