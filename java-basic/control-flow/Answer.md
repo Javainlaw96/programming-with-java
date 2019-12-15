@@ -59,9 +59,9 @@ for (int times = 10; times > 0; times --)
 # Bài 5
 
 ```java
-for (int i = 0; i <= 100; i++)
-    if (i % 7 == 0)
-        System.out.println(i);
+for (int i = 1; i <= 100; i++ )
+   System.out.println(i * 7); 
+}
 ```
 
 
