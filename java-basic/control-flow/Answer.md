@@ -63,5 +63,21 @@ for (int i = 1; i <= 100; i++ )
    System.out.println(i * 7); 
 }
 ```
+# Bài 6
+# Bải 7
+```java
+int a = 2;
+if (a == 0 || a == 1) {
+    System.out.println( a + " không phải là số nguyên tố");
+}
+for(int i = 2; i <= a - 1; i++) {
+    if (i % a == 0)
+       System.out.println(a + " không phải là số nguyên tố");
+    return;
+    }
+    System.out.println(a + " là số nguyên tố");
+ }
+    }
+```
 
 
